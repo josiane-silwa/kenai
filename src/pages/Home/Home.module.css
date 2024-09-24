@@ -1,0 +1,11 @@
+.container{
+    margin: auto;
+    align-items: center;
+    /*background-color: black;*/
+}
+/*
+@media (max-width:768px) {
+    .container{
+        max-width: 768px;
+    }   
+}*/

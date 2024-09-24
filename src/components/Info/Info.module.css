@@ -1,0 +1,41 @@
+.infoContainer{
+    position: absolute;
+    left: 20px;
+}
+
+.infoClassificacao{
+    height: 30px;
+    width: 150px;
+    background-color:#181818;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: -220px;
+    color: #FFA634;
+    border-radius: 0 8px;
+}
+
+.infoRating{
+    display: inline-flex;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 234px;
+    height: 20px;
+}
+
+.infoRating p{
+    padding: 2px;
+    height: 24px;
+    width: 103;
+    size: 14px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.infoClock{
+    padding-left: 10px;
+    width: 50px;
+    margin-top: 4px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
