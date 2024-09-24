@@ -1,0 +1,25 @@
+/* colocando um degradê */
+.gradient {
+    /* Primeiro passo: definir um degradê como fundo */
+    background-image: linear-gradient(to bottom, #FF267A, #FFA634);
+    
+    /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+    background-clip: text;
+    -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
+  
+    /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+    -webkit-text-fill-color: transparent;
+    margin-top: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #181818;
+}
+
+.clock{
+    margin-top: 10px;
+    padding: 10px;
+    color: #fff;
+}

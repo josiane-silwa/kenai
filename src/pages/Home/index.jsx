@@ -8,10 +8,7 @@ const Home = () => {
   return (
     <>
         <Header />
-        {/*<Carrossel />*/}
-        {/*<CarouselThumbs images={productImages}/>*/}
         <Carousel images={productImages}/>
-        {/*<CardCarousel images={productImages}/>*/}
     </>
   )
 }

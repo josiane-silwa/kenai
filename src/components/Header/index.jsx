@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import styles from './Header.module.css'
 import { Link } from 'react-router-dom'
+import { CiSearch } from "react-icons/ci"
+import { IoIosNotificationsOutline } from "react-icons/io"
 
 const Header = () => {
 
@@ -19,10 +21,11 @@ const Header = () => {
         className={`${styles.menuSandwich} ${ showMenu ? styles.show : '' }`}
         onClick={toggleMenu}
       >
-          <Link to="/">Home</Link>
-          <Link to="/sobre" className='btn btn-red' >Sobre mim </Link>
-          <Link to="/projetos">Projetos</Link>
-          <Link to="/contatos">Contatos</Link>
+          <Link to="/"><CiSearch /></Link>
+          <Link to="/">Inicio</Link>
+          <Link to="/sobre" className='btn btn-red' >Minha lista</Link>
+          <Link to="/notificacao"><IoIosNotificationsOutline/></Link>
+          <Link to="/perfil">Perfil</Link>
         </nav>
         <div 
           className={styles.menuButton}

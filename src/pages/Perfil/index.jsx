@@ -1,8 +1,10 @@
-import './Perfil.module.css'
+import Brend from '../../components/Brend/index'
+import styles from './Perfil.module.css'
+
 const Perfil = () => {
   return (
-    <div>
-      Perfil
+    <div className={styles.container}>
+      <Brend />
     </div>
   )
 }
