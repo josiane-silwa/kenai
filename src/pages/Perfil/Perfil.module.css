@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.containerPerfil{
     background-color: #070707;
 }
 
@@ -51,7 +53,19 @@ img{
     display: inline-flex;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 480px) {
+    .avataresContainer{
+        display: inline-block;
+    }
+    .buttonPerfil{
+        margin: auto;
+        margin-top: 260px;
+        width: 100px;
+        color: #fff;
+    }
+}
+
+@media (max-width: 768px) {
     .avataresContainer{
      margin: auto;   
      padding: 20px;
@@ -73,8 +87,3 @@ img{
     }
 }
 
-@media (max-width: 420px) {
-    .avataresContainer{
-        display: inline-block;
-    }
-}

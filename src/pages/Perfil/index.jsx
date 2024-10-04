@@ -6,7 +6,7 @@ import fig3 from '../../assets/img/avatar-3.png'
 
 const Perfil = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.containerPerfil}>
       <Brend />
       <div className={styles.bodyContainer}>
         <h1>Bem-vindo de volta ao Kenai</h1>
