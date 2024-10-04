@@ -25,7 +25,7 @@ const Perfil = () => {
             <span>Viniciius Eiji</span>
           </div>
         </div>
-          <div className={styles.button}>
+          <div className={styles.buttonPerfil}>
             <button>Adicionar</button>
           </div>
       </div>

@@ -6,10 +6,10 @@ import Header from '../../components/Header'
 
 const Home = () => {
   return (
-    <>
+    <div className={styles.homeContainer}>
         <Header />
         <Carousel images={productImages}/>
-    </>
+    </div>
   )
 }
 

@@ -3,6 +3,7 @@ import styles from './Header.module.css'
 import { Link } from 'react-router-dom'
 import { CiSearch } from "react-icons/ci"
 import { IoIosNotificationsOutline } from "react-icons/io"
+import { FiAlignRight } from "react-icons/fi"
 
 const Header = () => {
 
@@ -31,10 +32,7 @@ const Header = () => {
           className={styles.menuButton}
           onClick={toggleMenu}
         >
-          <span className={styles.linha1}></span>
-          <span className={styles.linha2}></span>
-          <span className={styles.linha1}></span>
-          <span className={styles.linha2}></span>
+          <FiAlignRight className={styles.icon}/>
         </div>
     </header>
   )
