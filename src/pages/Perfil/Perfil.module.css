@@ -13,7 +13,7 @@
     margin: auto;
     color: #fff;
     width: 100%;
-    display: block;
+    display: inline-block;
 }
 
 .avataresContainer{
@@ -23,7 +23,6 @@
     margin-top: 50px;
     padding: 10px; 
     color: #fff;
-    margin: auto;
     text-align: center;
 }
 
@@ -33,37 +32,38 @@ h1{
 }
 
 .avatar{
-    margin-bottom: 40px;
     margin: auto;
     width: 100%;
     height: 100%;
-    display: block;
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
     text-align: center;
-    flex-wrap: nowrap;
 }
 
 span{
     padding: 10px;
-    margin-top: 60px;
-    border: 1px solid red;
 }
 
 img{
     width: 220px;
     height: 220px;
-    margin-bottom: 40px;
+}
+
+.divButton{
+    text-align: center;
 }
 
 .buttonPerfil{
     background-color: #181818;
     color: #fff;
     margin: auto;
-    width: 400px;
     height: 40px;
+    width: 312px;
     border: none;
     border-radius: 5px;
-    display: inline-flex;
+    text-align: center;
 }
 
 
@@ -75,14 +75,7 @@ img{
     .avataresContainer{
         display: inline-flex;
         margin: auto;
-        border: 1px solid red;
         width: 100%;
-    }
-    .buttonPerfil{
-        margin: auto;
-        margin-top: 260px;
-        width: 100px;
-        color: #fff;
     }
 }
 /*

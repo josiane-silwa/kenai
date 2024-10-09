@@ -25,9 +25,9 @@ const Perfil = () => {
             <span>Viniciius Eiji</span>
           </div>
         </div>
-        <div className={styles.buttonPerfil}>
-          <button>Adicionar</button>
-        </div>
+      </div>
+      <div className={styles.divButton}>
+        <button className={styles.buttonPerfil}>Adicionar</button>
       </div>
     </div>
   )
