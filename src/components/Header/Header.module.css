@@ -28,6 +28,7 @@
     color: var(--red);
 }
 
+
 /* colocando um degradê */
 .gradient {
     /* Primeiro passo: definir um degradê como fundo */
@@ -40,6 +41,10 @@
     /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
     -webkit-text-fill-color: transparent;
     margin-top: 10px;
+}
+
+.menuButton{
+    display: none;
 }
 
 /*  menu sandwish*/
@@ -103,4 +108,5 @@
     .show{
         width: 100%;
     }
+
 }

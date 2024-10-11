@@ -3,6 +3,7 @@ import styles from './Perfil.module.css'
 import fig1 from '../../assets/img/avatar-1.png'
 import fig2 from '../../assets/img/avatar-2.png'
 import fig3 from '../../assets/img/avatar-3.png'
+import { Link } from 'react-router-dom'
 
 const Perfil = () => {
   return (
@@ -11,6 +12,7 @@ const Perfil = () => {
       <div className={styles.bodyContainer}>
         <h1>Bem-vindo de volta ao Kenai</h1>
         <h4>Quem está usando</h4>
+        <Link to='/'>
         <div className={styles.avataresContainer}>
           <div className={styles.avatar}>
             <img src={fig1} alt="" />
@@ -25,6 +27,7 @@ const Perfil = () => {
             <span>Viniciius Eiji</span>
           </div>
         </div>
+          </Link>
       </div>
       <div className={styles.divButton}>
         <button className={styles.buttonPerfil}>Adicionar</button>

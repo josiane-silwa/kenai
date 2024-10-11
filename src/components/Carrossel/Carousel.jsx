@@ -21,7 +21,7 @@ const Carousel = ({images}) => {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
     return (
-        <>
+        <div style={{ overflow: 'hidden' }}>
             <Swiper
                 spaceBetween={10}
                 //navigation={true}
@@ -49,6 +49,7 @@ const Carousel = ({images}) => {
                 watchSlidesProgress={true}
                 modules={[FreeMode,Thumbs]}
                 className="mySwiper"
+                scrollbar={false}
             >
                 {
                     images.map((item) => (
@@ -58,7 +59,7 @@ const Carousel = ({images}) => {
                     ))
                 }
             </Swiper>
-        </>
+        </div>
     )
 }
 
